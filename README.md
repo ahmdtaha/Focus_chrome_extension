@@ -1,5 +1,5 @@
 # Focus_chrome_extension
-A Chrome extension that blocks social media links during a certain schedule, e.g, Weekday 8-5. Inspired by [Focus](https://heyfocus.com/), I decided to make a free version with simpler options. The current version is not user friendly, but is straight forward for someone with basic computer skills.
+A Chrome extension that blocks social media links during a certain schedule, e.g, Weekday 8-5. Inspired by [Focus](https://heyfocus.com/), I decided to make a free version with simpler options. The current version is not user friendly, but it is straightforward for someone with basic computer skills.
 
 ## How to use it
 
