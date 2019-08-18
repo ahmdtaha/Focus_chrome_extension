@@ -18,7 +18,7 @@ The config file format is very simple. Every line corresponds to a schedule and 
 
  `"source_url","day","time-interval","destination_url"`
  
-This schedule/line cause the chrome extension to redirect any requests to the source_url during certain intervals (day & time-interval) to the destination url. Concretely, `"twitter.com","Weekday","5:00AM-5:00PM","google.com"`
+This schedule/line makes the chrome extension redirects any requests to the source_url during certain intervals (day & time-interval) to the destination url. Concretely, `"twitter.com","Weekday","5:00AM-5:00PM","google.com"`
 will redirect any requests to twitter during weekday [5:00 AM - 5:00PM] to google.
 
 The day parameter (2nd parameter) can take one of the following values ["Sunday", "Monday", "Tuesday", "Wednesday", "Thursday", "Friday","Saturday","Weekend","Weekday"]
