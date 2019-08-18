@@ -1,0 +1,23 @@
+{
+"name":"Self Control",
+"description":"Self Control",
+"version":"1.0.0",
+"manifest_version":2,
+"content_scripts": [
+    {
+      "matches": ["http://*/*","https://*/*", "file:///*/*"],
+      "js": ["jquery-3.4.1.min.js","config.js","script.js"]
+	  
+    }
+  ],
+"content_security_policy": "script-src 'self' 'unsafe-eval'; object-src 'self'",
+"permissions": [
+	"webRequest",
+	"webRequestBlocking",
+	"https://*/*/",
+	"http://*/*"
+  ], 
+"icons": {
+         "64": "scraping.png"
+         }
+}
